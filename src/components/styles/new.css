@@ -165,6 +165,13 @@ li.true{
     text-decoration: none;
 }
 
-.reassurance:hover{
-    background-color: darkgray;
+.reassurance svg:hover{
+    /* background-color: darkgray; */
+    border: none;
+}
+
+.reassurance img{
+    float: left;
+    margin-right: 10px;
+    text-decoration: none;
 }
