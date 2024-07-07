@@ -8,6 +8,11 @@
     scroll-behavior: smooth;
 }
 
+.header-section{
+    position: fixed;
+    width: 100%;
+}
+
 .header-section .header-content{
     display: block;
     top: 0;
@@ -193,6 +198,7 @@ ul.nav a:hover{
     cursor: pointer;
     height: 40px;
     position: sticky;
+    /* position: fixed; */
     top: 0;
 
     /* stroke: #949494; */

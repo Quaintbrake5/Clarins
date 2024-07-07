@@ -5,4 +5,90 @@
 .skincare-container{
     padding-left: 40px;
     padding-right: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.skincare-header h2{
+    color: #333;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 72px;
+    line-height: 52px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.skincare-subheader{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.skincare-tiles .tile-section{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    margin-top: 10px;
+    padding-top: 10px;
+    gap: 15px;
+}
+
+.tile-header{
+    text-align: left;
+}
+
+/* .tile-image:hover{
+    background-color: aqua;
+}  */
+
+.tile-image img{
+    width: 83%;
+    transition: all ease-in 3s;
+}
+
+.tile-image:nth-child(1){
+    animation: 3s ease 0s normal;
+    padding-top: 230px;
+    padding-bottom: 20px;
+}
+
+.tile-image:nth-child(3){
+    animation: 3s ease 0s normal;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+
+.tile-image:nth-child(5){
+    animation: 3s ease 0s normal;
+    padding-top: 230px;
+    padding-bottom: 20px;
+}
+
+.tile-image:nth-child(7){
+    animation: 3s ease 0s normal;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.tile-link{
+    text-decoration: none;
+    color: #000;
+}
+
+.tile-header span{
+    font-size: xx-large;
+    font-weight: 500;
+}
+
+.tile-header p{
+    text-decoration: underline;
+    font-size: smaller;
+    font-weight: 500;
+}
+
+.tile-header p:hover{
+    text-decoration: none;
+    color: #ba0c2f;
 }

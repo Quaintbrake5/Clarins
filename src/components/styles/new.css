@@ -1,3 +1,7 @@
+.new{
+    padding-top: 105px;
+}
+
 .whats-new{
     display: flex !important;
     display: block;

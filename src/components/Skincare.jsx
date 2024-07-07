@@ -10,7 +10,7 @@ const Skincare = () => {
       <section className='skincare' id='skincare'>
         <div className='skincare-container'>
             <div className='skincare-header'>
-                <h1>Your skin. Our expertise</h1>
+                <h2>Your skin. Our expertise.</h2>
             </div>
 
             <div className='skincare-subheader'>
