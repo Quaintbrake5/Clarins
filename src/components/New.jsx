@@ -8,7 +8,7 @@ import '../assets/Image.webp'
 const New = (props) => {
   return (
     <>
-      <section>
+      <section className='new'>
         <div id='new' className='whats-new'>
           <div className='whats-new-inner'>
             <ul className='new-slider'>

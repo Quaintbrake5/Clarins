@@ -7,7 +7,7 @@ import '../assets/Skincare2.jpg'
 const Skincare = () => {
   return (
     <>
-      <section className='skincare'>
+      <section className='skincare' id='skincare'>
         <div className='skincare-container'>
             <div className='skincare-header'>
                 <h1>Your skin. Our expertise</h1>

@@ -1,0 +1,8 @@
+.skincare{
+    animation: 3s ease 0s normal 1 fadeInAnimation;
+}
+
+.skincare-container{
+    padding-left: 40px;
+    padding-right: 40px;
+}
