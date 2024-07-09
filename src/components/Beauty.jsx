@@ -187,7 +187,7 @@ const Beauty = () => {
                     </div>
                 </div>
 
-                <div className='product-review'>
+                <div className='product-review' id='offer'>
                     <div className='review-page'>
                         <div className='review-image'>
                             <img src='https://www.clarins.ca/on/demandware.static/-/Library-Sites-clarins-v3/default/dw485c4992/Homepage_CBA/Social_proof/CBA_HP_Social-400x400_21.jpg'></img>
@@ -215,10 +215,12 @@ const Beauty = () => {
 
                                 <div className='review-proof'>
                                     <a className='proof-button' href='https://www.clarins.ca/en/double-serum-anti-aging-anti-wrinkle-serum/80025863.html'>
-                                        <button className='proof'>See for yourself</button>
+                                        <button className='proof'>
+                                            <span>See for yourself</span>
+                                        </button>
                                     </a>
                                 </div>
-                                
+
                             </div>
                         </div>
                     </div>
