@@ -187,7 +187,17 @@ const Beauty = () => {
                     </div>
                 </div>
 
-                
+                <div className='product-review'>
+                    <div className='review-page'>
+                        <div className='review-image'>
+                            <img src='https://www.clarins.ca/on/demandware.static/-/Library-Sites-clarins-v3/default/dw485c4992/Homepage_CBA/Social_proof/CBA_HP_Social-400x400_21.jpg'></img>
+                        </div>
+
+                        <div className='review-page-comp'>
+                            
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
       </section>

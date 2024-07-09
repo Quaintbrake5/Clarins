@@ -106,12 +106,15 @@
 
 .product-result{
     height: 250px;
+    margin-bottom: 20px;
+
 }
 
 .result-container{
     display: flex;
     gap: 20px;
-    height: 250px;
+    padding-top: 10px;
+    height: 150px;
 }
 
 .result-text{
@@ -139,7 +142,7 @@
 }
 
 .result-image img{
-    height: 300px;
+    height: 200px;
     float: right;
     margin-left: 140px;
 }
