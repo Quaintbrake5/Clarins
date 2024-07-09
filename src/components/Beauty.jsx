@@ -194,7 +194,32 @@ const Beauty = () => {
                         </div>
 
                         <div className='review-page-comp'>
-                            
+                            <div className='review-page-comp-container'>
+                                <div className='review-header'>
+                                    <span>TESTED, TRUSTED, RECOMMENDED</span>
+                                </div>
+
+                                {/* <div className='review-rating'>
+                                    <svg className="stars-reviews__icon"><use xlinkHref="#stars-reviews"></use></svg>
+                                </div> */}
+
+                                <div className='review-social'>
+                                    <span>"It makes skin look moisturized and healthy after application!"</span>
+                                </div>
+
+                                <div className='review-text'>
+                                    <span>Double Serum, the intensive anti-aging serum for all ages and skin types, formulated with 21 plant extracts.</span>
+                                </div>
+
+                                <br/>
+
+                                <div className='review-proof'>
+                                    <a className='proof-button' href='https://www.clarins.ca/en/double-serum-anti-aging-anti-wrinkle-serum/80025863.html'>
+                                        <button className='proof'>See for yourself</button>
+                                    </a>
+                                </div>
+                                
+                            </div>
                         </div>
                     </div>
                 </div>
