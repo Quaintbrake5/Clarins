@@ -74,10 +74,14 @@ li.true{
     padding: 6px 8px;
 }
 
+.badge span{
+    font-size: medium;
+}
+
 .badge-title span{
     font-size: xxx-large;
     font-family: 'Times New Roman', Times, serif;
-    font-weight: 500;
+    font-weight: 100;
 }
 
 .badge-description p{

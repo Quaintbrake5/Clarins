@@ -1,0 +1,145 @@
+.beauty-section{
+    padding-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.beauty-header h1{
+    font-size: xxx-large;
+    font-weight: 100;
+    color: #000000;
+    margin-bottom: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.beauty-subtext p{
+    text-align: center;
+    font-size: 26.5px;
+    font-weight: 400;
+}
+
+.tab-heading{
+    margin-top: 50px;
+    overflow-x: auto;
+    margin-bottom: 12px;
+    text-align: center;
+    align-items: center;
+    justify-content: center
+}
+
+.tab-heading-scroll{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.tab a{
+    text-decoration: none;
+    color: black;
+}
+
+.tab-heading-scroll .tab{
+    font-weight: 490;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: solid 2px #e9e3de;     
+}
+
+.tab-heading-scroll .tab:hover{
+    border-bottom: #333 4px solid;
+}
+
+/* .products-container{
+    display: block;
+} */
+
+.product{
+    display: flex;
+    gap: 10px;
+    padding-bottom: 30px;
+}
+
+.product-slider{
+    border: 1px solid black;
+    width: 280px;
+    align-items: center;
+    margin-left: 15px;
+    height: max-content;
+}
+
+.product-image-tag{
+    background-color: rgba(192, 192, 192, 0.422);
+    width: 100px;
+    float: left;
+    margin-left: 8px;
+    margin-top: 5px;
+}
+
+.product-image img{
+    width: 280px;
+    height: 300px;
+    padding-left: 9px;
+    padding-top: 10px;
+    padding-right: 9px;
+}
+
+.product-image-text{
+    font-weight: 550;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.product-image-subtext span{
+    padding-left: 10px;
+    color: rgba(112, 128, 144, 0.653);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.product-price{
+    padding-left: 10px;
+    font-weight: 600;
+}
+
+.product-result{
+    height: 300px;
+}
+
+.result-container{
+    display: flex;
+    gap: 20px;
+    height: 250px;
+}
+
+.result-text{
+    padding-top: 65px;
+}
+
+.result-text span{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-style: italic;
+    padding-left: 30px;
+    justify-content: center;
+}
+
+.result-commit{
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+    font-size: x-large;
+    font-weight: 300;
+    line-height: 1.6rem;
+    word-spacing: 4px;
+    padding-left: 100px;
+    border-left: #333 1px solid;
+}
+
+.result-image img{
+    height: 300px;
+    float: right;
+    margin-left: 140px;
+}

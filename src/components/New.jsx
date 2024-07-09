@@ -23,7 +23,7 @@ const New = (props) => {
                   <div className='page-comp-container'>
                     <div className='page-comp-body'>
                       <div className='badge'>
-                        <span>New</span>
+                        <span>NEW</span>
                       </div>
 
                       <div className='badge-title'>
