@@ -1,0 +1,71 @@
+.service-section{
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+.beauty-header h1{
+    font-size: xxx-large;
+    font-weight: 100;
+    color: #000000;
+    margin-bottom: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.beauty-subtext p{
+    text-align: center;
+    font-size: 26.5px;
+    font-weight: 100;
+    letter-spacing: 5px;
+}
+
+.services-container{
+    margin-top: 30px;
+}
+
+.services{
+    display: flex;
+    gap: 20px;
+}
+
+.service{
+    border: 1px solid black;
+    width: 280px;
+    align-items: center;
+    margin-left: 15px;
+    height: max-content;
+}
+
+.service img{
+    width: 278px;
+}
+
+.services:hover{
+    box-shadow: 0.5px 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.571);
+}
+
+.service-image-text span{
+    font-weight: 500;
+    font-size: large;
+    margin-left: 3px;
+}
+
+.service-image-subtext span{
+    font-weight: 400;
+    font-size: small;
+    padding-left: 3px;
+    text-align: center;
+}
+
+.service-link a{
+    color: black;
+    font-size: small;
+    font-weight: 500;
+    padding-top: 5px;
+    padding-left: 3px;
+}
+
+.service-link a:hover{
+    color: #ba0c2f;
+    text-decoration: none;
+}

@@ -5,6 +5,7 @@ import Header from './components/Header'
 import New from './components/New'
 import Skincare from './components/Skincare'
 import Beauty from './components/Beauty'
+import Services from './components/Services'
 // import '../src/assets/Products Samples.webp'
 
 
@@ -17,6 +18,7 @@ function App() {
       {/* <New pic = '/src/assets/Products Samples.webp'/> */}
       <Skincare/>
       <Beauty/>
+      <Services/>
     </>
   )
 }

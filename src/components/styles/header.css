@@ -342,6 +342,30 @@ ul.nav a:hover{
     height: calc(100% - 55px);
 }
 
+.hamburger-content-lower a{
+    text-decoration: none;
+    color: #000;
+}
+
+.hamburger-content-lower a span{
+    text-transform: capitalize;
+
+}
+
+.hamburger-content-lower a:hover{
+    color: #ba0c2f;
+}
+
+.content-lower-wrapper{
+    padding-top: 20px;
+}
+
+.hamburger-content-lower a svg{
+    float: right;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
 .nav {
     border-bottom: 2px solid #cfcac9;
     display: flex;
