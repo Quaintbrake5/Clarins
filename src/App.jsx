@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <Header />
-      <New image = '/src/assets/Image.webp'/>
+      <New image = 'https://www.clarinsusa.com/on/demandware.static/-/Library-Sites-clarins-v3/default/dw953e1a12/Homepage_CBA/Aspot/PRODUCT%20LAUNCHES/2024_BODY_FIT_ACTIVE/CBA_HP_Aspot-Desktop_BODY-FIT_2024_StillLife.jpg_master.jpg'/>
       {/* <New pic = '/src/assets/Products Samples.webp'/> */}
       <Skincare/>
       <Beauty/>
