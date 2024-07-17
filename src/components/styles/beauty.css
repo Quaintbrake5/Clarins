@@ -1,135 +1,282 @@
-.beauty-section{
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  /* #root Styles */
+  
+  #root {
+    max-width: 1280px; /* max width for large screens */
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 1200px) {
+    #root {
+      max-width: 90%; /* adjust max width for smaller screens */
+      padding: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    #root {
+      max-width: 95%; /* adjust max width for even smaller screens */
+      padding: 1rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #root {
+      max-width: 98%; /* adjust max width for smaller screens */
+      padding: 0.5rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #root {
+      max-width: 100%; /* adjust max width for even smaller screens */
+      padding: 0.2rem;
+    }
+  }
+  
+  /* Beauty Section Styles */
+  
+  .beauty-section {
     padding-top: 100px;
     justify-content: center;
     align-items: center;
-}
-
-.beauty-header h1{
+  }
+  
+  @media (max-width: 768px) {
+    .beauty-section {
+      padding-top: 50px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .beauty-section {
+      padding-top: 20px;
+    }
+  }
+  
+  /* Beauty Header Styles */
+  
+  .beauty-header h1 {
     font-size: xxx-large;
     font-weight: 100;
     color: #000000;
     margin-bottom: 16px;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-}
-
-.beauty-subtext p{
+  }
+  
+  @media (max-width: 768px) {
+    .beauty-header h1 {
+      font-size: xx-large;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .beauty-header h1 {
+      font-size: x-large;
+    }
+  }
+  
+  /* Beauty Subtext Styles */
+  
+  .beauty-subtext p {
     text-align: center;
     font-size: 26.5px;
     font-weight: 400;
-}
-
-.tab-heading{
+  }
+  
+  @media (max-width: 768px) {
+    .beauty-subtext p {
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .beauty-subtext p {
+      font-size: 16px;
+    }
+  }
+  
+  /* Tab Heading Styles */
+  
+  .tab-heading {
     margin-top: 50px;
     overflow-x: auto;
     margin-bottom: 12px;
     text-align: center;
     align-items: center;
-    justify-content: center
-}
-
-.tab-heading-scroll{
-    display: flex;
-    align-items: center;
     justify-content: center;
-    gap: 25px;
-}
-
-.tab a{
-    text-decoration: none;
-    color: black;
-}
-
-.tab-heading-scroll .tab{
-    font-weight: 490;
-    text-align: center;
-    display: inline-flex;
-    align-items: center;
-    padding-bottom: 10px;
-    border-bottom: solid 2px #e9e3de;     
-}
-
-.tab-heading-scroll .tab:hover{
-    border-bottom: #333 4px solid;
-}
-
-/* .products-container{
-    display: block;
-} */
-
-.product{
+  }
+  
+  @media (max-width: 768px) {
+    .tab-heading {
+      margin-top: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .tab-heading {
+      margin-top: 10px;
+    }
+  }
+  
+  /* Product Styles */
+  
+  .product {
     display: flex;
     gap: 10px;
     padding-bottom: 30px;
-}
-
-.product-slider{
+  }
+  
+  @media (max-width: 768px) {
+    .product {
+      flex-direction: column;
+    }
+  }
+  
+  .product-slider {
     border: 1px solid black;
     width: 280px;
     align-items: center;
     margin-left: 15px;
     height: max-content;
-}
-
-.product-image-tag{
+  }
+  
+  @media (max-width: 768px) {
+    .product-slider {
+      width: 100%;
+    }
+  }
+  
+  .product-image-tag {
     background-color: rgba(192, 192, 192, 0.422);
     width: 100px;
     float: left;
     margin-left: 8px;
     margin-top: 5px;
-}
-
-.product-image img{
+  }
+  
+  @media (max-width: 768px) {
+    .product-image-tag {
+      width: 50px;
+    }
+  }
+  
+  .product-image img {
     width: 280px;
     height: 300px;
     padding-left: 9px;
     padding-top: 10px;
     padding-right: 9px;
-}
-
-.product-image-text{
+  }
+  
+  @media (max-width: 768px) {
+    .product-image img {
+      width: 100%;
+    }
+  }
+  
+  .product-image-text {
     font-weight: 550;
     font-size: 12px;
     padding-left: 10px;
-}
-
-.product-image-subtext span{
+  }
+  
+  @media (max-width: 768px) {
+    .product-image-text {
+      font-size: 10px;
+    }
+  }
+  
+  .product-image-subtext span {
     padding-left: 10px;
     color: rgba(112, 128, 144, 0.653);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.product-price{
+  }
+  
+  @media (max-width: 768px) {
+   .product-image-subtext span {
+      font-size: 10px;
+    }
+  }
+  
+  .product-price {
     padding-left: 10px;
     font-weight: 600;
-}
-
-.product-result{
+  }
+  
+  @media (max-width: 768px) {
+   .product-price {
+      font-size: 14px;
+    }
+  }
+  
+  .product-result {
     height: 250px;
     margin-bottom: 20px;
-
-}
-
-.result-container{
+  }
+  
+  @media (max-width: 768px) {
+   .product-result {
+      height: 150px;
+    }
+  }
+  
+  .result-container {
     display: flex;
     gap: 20px;
     padding-top: 10px;
     height: 150px;
-}
-
-.result-text{
+  }
+  
+  @media (max-width: 768px) {
+   .result-container {
+      flex-direction: column;
+    }
+  }
+  
+  .result-text {
     padding-top: 65px;
-}
-
-.result-text span{
+  }
+  
+  @media (max-width: 768px) {
+   .result-text {
+      padding-top: 20px;
+    }
+  }
+  
+  .result-text span {
     font-family: 'Times New Roman', Times, serif;
     font-size: xx-large;
     font-style: italic;
     padding-left: 30px;
     justify-content: center;
-}
-
-.result-commit{
+  }
+  
+  @media (max-width: 768px) {
+   .result-text span {
+      font-size: x-large;
+    }
+  }
+  
+  .result-commit {
     justify-content: center;
     align-items: center;
     padding-top: 90px;
@@ -139,94 +286,119 @@
     word-spacing: 4px;
     padding-left: 100px;
     border-left: #333 1px solid;
-}
-
-.result-image img{
+  }
+  
+  @media (max-width: 768px) {
+   .result-commit {
+      padding-top: 40px;
+    }
+  }
+  
+  .result-image img {
     height: 200px;
     float: right;
     margin-left: 140px;
-}
-
-.product-review{
-    display: flex !important;
+  }
+  
+  @media (max-width: 768px) {
+   .result-image img {
+      height: 100px;
+    }
+  }
+  
+  .product-review {
+    display: flex!important;
     display: block;
     overflow: hidden;
     direction: ltr;
-}
-
-.review-page{
+  }
+  
+  .review-page {
     cursor: pointer;
     background-color: #fbf6f3;
     color: #333;
-    /* padding: 24px 16px; */
     flex: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
     text-align: center;
-    /* margin-right: 20px; */
     width: 95vh;
     gap: 50px;
     margin-bottom: -97px;
-}
-
-.review-page img{
+  }
+  
+  @media (max-width: 768px) {
+   .review-page {
+      flex-direction: column;
+    }
+  }
+  
+  .review-page img {
     float: left;
     margin-left: 20px;
-    /* margin-top: 50px; */
-    /* padding-bottom: 30px; */
-    
     height: 460px;
-} 
-
-.review-page-comp-container{
+  }
+  
+  @media (max-width: 768px) {
+   .review-page img {
+      height: 200px;
+    }
+  }
+  
+  .review-page-comp-container {
     cursor: pointer;
     color: #333;
     text-align: center;
     float: right;
-    margin-bottom: 100px;    
-}
-
-.review-header{
+    margin-bottom: 100px;
+  }
+  
+  .review-header {
     margin-top: 5px;
-    /* word-spacing: 4px; */
     letter-spacing: 6px;
-}
-
-.review-social span{
+  }
+  
+  .review-social span {
     font-weight: lighter;
     font-family: 'Times New Roman', Times, serif;
     font-size: 72px;
     text-align: center;
-}
-
-.review-text{
+  }
+  
+  @media (max-width: 768px) {
+   .review-social span {
+      font-size: 48px;
+    }
+  }
+  
+  .review-text {
     text-align: center;
     font-size: large;
     padding-top: 50px;
     font-weight: 400;
-}
-
-.review-proof{
+  }
+  
+  @media (max-width: 768px) {
+   .review-text {
+      font-size: medium;
+    }
+  }
+  
+  .review-proof {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 4px;
-
-}
-
-.proof{
+  }
+  
+  .proof {
     height: 44px;
     background-color: #ba0c2f;
     color: white;
     border: none;
     border-radius: 5px;
     width: 150px;
-}
-
-.review-proof span{
-    font-weight: 500;
-}
-
-.proof:hover{
+  }
+  
+  .proof:hover {
     box-shadow: rgba(0, 0, 0, 0.304) 1px 1px 1px 1px;
-}
+  }
