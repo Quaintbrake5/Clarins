@@ -52,6 +52,7 @@
 .tile-image img{
     width: 83%;
     transition: all ease-in 3s;
+    border-radius: 7px;
 }
 
 .tile-image:nth-child(1){
