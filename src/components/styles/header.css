@@ -360,3 +360,35 @@ ul.nav a:hover{
   font-size: x-small;
   font-weight: 500;
 }
+/* Small screens (e.g., mobile devices)
+@media only screen and (max-width: 768px) {
+  .header-section {
+    position: relative;
+  }
+  .header-content {
+    position: relative;
+  }
+  .side-panel-content {
+    width: 100vw;
+  }
+  .side-panel-content .hamburger-content-header {
+    position: relative;
+  }
+}
+
+/* Large screens (e.g., desktops) */
+
+/* @media only screen and (min-width: 769px) {
+  .header-section {
+    position: fixed;
+  }
+  .header-content {
+    position: sticky;
+  }
+  .side-panel-content {
+    width: 45vh;
+  }
+  .side-panel-content .hamburger-content-header {
+    position: sticky;
+  }
+}  */
